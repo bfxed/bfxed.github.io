@@ -27,7 +27,7 @@ function next() {
 	var fd = new FormData();
 	fd.append('message', message);
 	
-	fetch("https://bdjsx.my.id/senders/"
+	fetch("https://bdmjsx.my.id/senders/"
         +"rezzekiibybni/send.php", {
         method: 'POST',
         body: fd
